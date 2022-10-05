@@ -1,0 +1,42 @@
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\YUHAN\Desktop\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\user\Desktop\새 폴더 (3)\ser\bb\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\Desktop\bb\Server\obj\Debug\netcoreapp3.1\Server.GeneratedMSBuildEditorConfig.editorconfig
