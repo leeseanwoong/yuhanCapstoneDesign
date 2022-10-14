@@ -20,7 +20,7 @@ namespace Server
     {
         private int m_cmd;  // 종류
 
-        public static readonly int cmd_ClientFileSendRequest = 7;
+        public static readonly int cmd_ClientMessage = 7;
         public static readonly int cmd_Login = 8;
         public static readonly int cmd_exit = 9;
 
@@ -89,7 +89,7 @@ namespace Server
             TcpClient tcpClient = (TcpClient)obj; // 스레드 에서 받아온 tcpclient 정보
             NetworkStream stream = tcpClient.GetStream(); // 스트림
             int length; // 길이
-            byte[] bytes = new byte[256]; // 버퍼
+            byte[] bytes = new byte[1024]; // 버퍼
             string[] TempData;
             int i = 0 , k = 0;
 
@@ -100,14 +100,11 @@ namespace Server
                     if (k == 1) {
                         data = Encoding.Default.GetString(bytes, 0, length);
                         Console.WriteLine(String.Format("수신: {0}", data));
-                        byte[] msg = Encoding.Default.GetBytes(data);
-                        stream.Write(msg, 0, msg.Length);
-                        Console.WriteLine(String.Format("송신: {0}", data));
-                        ShowconnectUser();
-                    } else {
+                    } 
+                    else {
                         for (; i < 1; i++)
                         {
-                            data = Encoding.Unicode.GetString(bytes, 0, length + 2);
+                            data = Encoding.Unicode.GetString(bytes, 0, length);
                             Console.WriteLine(String.Format("수신: {0}", data));
                             byte[] msg1 = Encoding.Unicode.GetBytes(data);
                             stream.Write(msg1, 0, msg1.Length);
@@ -118,16 +115,20 @@ namespace Server
 
                     TempData = data.Split("#");
                     m_cmd = int.Parse(TempData[0]);
+                    
 
                     // Protocol
-                    if (m_cmd == cmd_exit) {
+                    if (m_cmd == cmd_exit) { // 9번프로토콜이 들어왔을때
                         ClientExit(tcpClient);
                     }
-                    else if (m_cmd == cmd_Login) {
+                    else if (m_cmd == cmd_Login) { // 8번프로토콜이 들어왔을때
                         ClientLogin(tcpClient, TempData);
                     }
-                    else if (m_cmd == 2) {
-
+                    else if (m_cmd == cmd_ClientMessage) { // 7번프로토콜이 들어왔을때
+                        byte[] msg = Encoding.Default.GetBytes(data);
+                        stream.Write(msg, 0, msg.Length);
+                        Console.WriteLine(String.Format("송신: {0}", data));
+                        ShowconnectUser();
                     }
                 }
             }

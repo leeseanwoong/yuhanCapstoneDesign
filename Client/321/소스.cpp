@@ -46,6 +46,9 @@ using namespace std;
         
     }
 }*/
+
+char cMsg[1024] = ""; // 메시지 버퍼
+char cBuffer[BUFFERSIZE] = {};
 void firstsend(const wchar_t* userinfo, SOCKET sock)
 {
     wprintf_s(userinfo);
@@ -53,7 +56,15 @@ void firstsend(const wchar_t* userinfo, SOCKET sock)
     char cBuffer[BUFFERSIZE] = {};
     recv(sock, cBuffer, BUFFERSIZE, 0);
 }
-
+void Insert(int idx, char ch)
+{
+    memmove(cMsg + idx + 1, cMsg + idx, strlen(cMsg) - idx + 1);
+    cMsg[idx] = ch;
+}
+void Delete(int idx)
+{
+    memmove(cBuffer + idx, cBuffer + idx + 1, strlen(cBuffer) - idx);
+}
 
 // 실행 함수
 int main() 
@@ -90,25 +101,31 @@ int main()
 
     firstsend(UserInfo, sock);
 
-    char cMsg[1024] = ""; // 메시지 버퍼
+    
 
-   
+    
 
     while (1) {
 
         cout << "입력" << endl;
         cin >> cMsg;
 
-        printf("%d - 내가 보내는 메시지 : -%s-\n", i, cMsg);
-        send(sock, cMsg, strlen(cMsg), 0);
-
-        char cBuffer[BUFFERSIZE] = {};
-        recv(sock, cBuffer, BUFFERSIZE, 0);
-        printf("%d - 서버에서 온 메시지 : -%s-\n",i++, cBuffer);
-
-        if (cMsg[0] == '9' && cMsg[1] == '\0') { 
+        if (cMsg[0] == '9' && cMsg[1] == '\0') { // 9 입력하면 연결 종료
+            printf("%d - 내가 보내는 메시지 : -%s-\n", i, cMsg);
+            cMsg[0] = '9'; cMsg[1] = '#'; cMsg[2] = 'C'; cMsg[3] = 'l'; cMsg[4] = 'o'; cMsg[5] = 's'; cMsg[6] = 'e'; cMsg[7] = '\0';
+            send(sock, cMsg, strlen(cMsg), 0);
+            recv(sock, cBuffer, BUFFERSIZE, 0);
             break;
-        }  // 클라이언트 나감 처리
+        }
+        else // 9가 아니라면 7번 프로토콜로 보냄
+        {
+            printf("%d - 내가 보내는 메시지 : -%s-\n", i, cMsg);
+            Insert(0, '7'); Insert(1, '#');
+            send(sock, cMsg, strlen(cMsg), 0);
+            recv(sock, cBuffer, BUFFERSIZE, 0);
+            Delete(0); Delete(0);
+            printf("%d - 서버에서 온 메시지 : -%s-\n", i++, cBuffer);
+        }
     }
     closesocket(sock); // 서버 소켓 종료
     WSACleanup(); // 소켓 종료
