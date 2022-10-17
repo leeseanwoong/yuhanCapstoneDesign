@@ -1,0 +1,16 @@
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\YUHAN\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

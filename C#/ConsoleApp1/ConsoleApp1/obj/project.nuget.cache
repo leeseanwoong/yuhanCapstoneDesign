@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+1vjvusLU78KA03BNFn7Yoq0MVPGPrd3nZs43E/NS2javs1wGLPwLtCa/AgtPPZJR5AkfEjZHpyjhNSyyd3k1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\카카오톡 받은 파일\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\sharpziplib\\1.4.0\\sharpziplib.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
