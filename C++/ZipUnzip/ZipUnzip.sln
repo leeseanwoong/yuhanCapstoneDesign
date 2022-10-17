@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipUnzip", "C:\Users\윤선규\Desktop\ZipUnzip\ZipUnzip.vcxproj", "{DD3AD499-D3CE-41FD-BE3E-702F0201BF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD3AD499-D3CE-41FD-BE3E-702F0201BF36}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD3AD499-D3CE-41FD-BE3E-702F0201BF36}.Debug|x86.Build.0 = Debug|Win32
+		{DD3AD499-D3CE-41FD-BE3E-702F0201BF36}.Release|x86.ActiveCfg = Release|Win32
+		{DD3AD499-D3CE-41FD-BE3E-702F0201BF36}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29ADBD2D-87AB-4C5C-8819-2C5A4C8AC984}
+	EndGlobalSection
+EndGlobal
