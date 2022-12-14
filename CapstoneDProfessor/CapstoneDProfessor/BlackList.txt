@@ -1,0 +1,23 @@
+﻿system
+system interrupts
+svchost.exe
+wslhost.exe
+conhost.exe
+runtimebroker.exe
+wsl.exe
+services.exe
+sihost.exe"
+smss.exe
+winlogon.exe
+audiodg.exe
+.exe
+vmmem
+vmwp.exe
+csrss.exe
+lsass.exe
+registry
+srcure system
+spoolsv.exe
+sqlwriter.exe
+vmms.exe
+wininit.exe

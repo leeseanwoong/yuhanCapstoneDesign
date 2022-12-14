@@ -1,0 +1,13 @@
+﻿  KISA_SHA256.c
+  ControlManager.cpp
+  PasswordController.cpp
+  ProcessManager.cpp
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\ProcessManager.cpp(139,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  TestManager.cpp
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\TestManager.cpp(67,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\TestManager.cpp(137,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\TestManager.cpp(150,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\TestManager.cpp(369,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  TestManager.vcxproj -> C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\Debug\TestManager.exe

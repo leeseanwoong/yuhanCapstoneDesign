@@ -1,0 +1,7 @@
+﻿  KISA_SHA256.c
+  ControlManager.cpp
+  PasswordController.cpp
+  ProcessManager.cpp
+  TestManager.cpp
+C:\Users\YUHAN\Desktop\yuhanCapstoneDesign-master\Client _TestManager\TestManager\TestManager.cpp(19,9): fatal error C1083: 포함 파일을 열 수 없습니다. 'SHA256/KISA_SHA256.h': No such file or directory
+  코드를 생성하고 있습니다...
